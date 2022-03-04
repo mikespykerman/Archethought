@@ -1,0 +1,14 @@
+# Build Target staging
+FROM node:lts-alpine as build-stage
+WORKDIR /app
+
+# Try and do the invariant stuff first
+COPY package*.json ./
+RUN npm install
+RUN npm install -g @vue/cli
+RUN npm install -g @quasar/cli 
+# Now we'll build out dynamic stuff
+COPY quasar.conf.js ./
+COPY ./ ./
+
+RUN quasar build

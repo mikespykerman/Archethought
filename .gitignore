@@ -1,0 +1,10 @@
+backend/.env
+backend/.nyc_output
+backend/coverage
+backend/node_modules
+.vscode
+frontend/.env
+frontend/.vscode
+frontend/coverage
+frontend/node_modules
+

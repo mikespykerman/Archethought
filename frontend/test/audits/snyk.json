@@ -1,0 +1,9 @@
+MissingApiTokenError: `snyk` requires an authenticated account. Please run `snyk auth` and try again.
+    at Object.apiTokenExists (/Users/mikespykerman/Projects/Archethought/curteck/frontend/node_modules/snyk/dist/cli/webpack:/snyk/src/lib/api-token.ts:22:11)
+    at Object.validateCredentials (/Users/mikespykerman/Projects/Archethought/curteck/frontend/node_modules/snyk/dist/cli/webpack:/snyk/src/cli/commands/test/validate-credentials.ts:10:5)
+    at test (/Users/mikespykerman/Projects/Archethought/curteck/frontend/node_modules/snyk/dist/cli/webpack:/snyk/src/cli/commands/test/index.ts:58:3)
+    at callModule (/Users/mikespykerman/Projects/Archethought/curteck/frontend/node_modules/snyk/dist/cli/webpack:/snyk/src/cli/commands/index.js:6:1)
+    at runCommand (/Users/mikespykerman/Projects/Archethought/curteck/frontend/node_modules/snyk/dist/cli/webpack:/snyk/src/cli/main.ts:53:25)
+    at main (/Users/mikespykerman/Projects/Archethought/curteck/frontend/node_modules/snyk/dist/cli/webpack:/snyk/src/cli/main.ts:317:11)
+    at /Users/mikespykerman/Projects/Archethought/curteck/frontend/node_modules/snyk/dist/cli/webpack:/snyk/src/cli/index.ts:11:3
+    at Object.callHandlingUnexpectedErrors (/Users/mikespykerman/Projects/Archethought/curteck/frontend/node_modules/snyk/dist/cli/webpack:/snyk/src/lib/unexpected-error.ts:28:5)
